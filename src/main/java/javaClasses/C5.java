@@ -1,12 +1,14 @@
 package javaClasses;
 
 public class C5 {
-    private String g;
+
+ private int g;
     
     public C5(){
-        g="";
+        g=5;
     }
-    public String getC5(){
+    public int getC5(){
+
         return g;
     }
 }
